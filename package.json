@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --incremental -p tsconfig.json",
+    "test-and-generate-report": "playwright test && allure generate --clean && allure serve",
+    "test": "playwright test",
+    "allure-report": "allure generate --clean && allure serve"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "allure": "^0.0.0",
+    "allure-playwright": "^3.14.0"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}

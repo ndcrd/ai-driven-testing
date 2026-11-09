@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "paths": {
+      // "@myhelper/*": ["packages/myhelper/*"] // This mapping is relative to the tsconfig.
+    },
+    "types": ["node"],
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "sourceMap": true,
+    "outDir": "./tests-out",
+    "noEmit": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "playwright.config.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    ".github"
+  ]
+}
