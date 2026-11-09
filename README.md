@@ -24,4 +24,4 @@ It spent **4.2m input tokens, 29k output tokens and 6.7 credits** on gpt-6-luna.
 
 I leave AI driven tests as an example when AI might show good results, even tho it's wrong. **You are not a vibe tester. Always validate the work it does.**
 
-In my opinion, it's nice to have a fast machine helping you out, but my best guess is to write tests yourself and use ai assistance as brainstorming, researching or automation layer where you definitely sure it won't mess up.
+In my opinion, it's nice to have a fast machine helping you out, but my best suggestion is to write tests yourself and use AI assistant as brainstorming, researching or automation layer where you definitely sure it won't mess up.
